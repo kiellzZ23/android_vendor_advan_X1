@@ -234,7 +234,6 @@ PRODUCT_COPY_FILES += \
     vendor/advan/X1/proprietary/vendor/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.mediatek.hardware.pq@2.2-service.rc \
     vendor/advan/X1/proprietary/vendor/etc/init/vendor.trustonic.tee@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.trustonic.tee@1.1-service.rc \
     vendor/advan/X1/proprietary/vendor/etc/init/wlan_assistant.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wlan_assistant.rc \
-    vendor/advan/X1/proprietary/vendor/etc/mali_platform.config:$(TARGET_COPY_OUT_VENDOR)/etc/mali_platform.config \
     vendor/advan/X1/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/advan/X1/proprietary/vendor/etc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
     vendor/advan/X1/proprietary/vendor/etc/meow.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/meow.cfg \
@@ -391,8 +390,6 @@ PRODUCT_PACKAGES += \
     libapu_mdw_batch \
     libapusys \
     libapusys_edma \
-    libarm_egl_properties_sysprop \
-    libarm_gralloc_properties_sysprop \
     libarmnn \
     libarmnn_ndk.mtk.vndk \
     libasn1c_core \
@@ -482,7 +479,6 @@ PRODUCT_PACKAGES += \
     libjpeg-alpha_vendor \
     libkmsetkey \
     libksensor \
-    liblibarm_mali_config_sysprops \
     libminiui \
     libmipc \
     libmmagent \
